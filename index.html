@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tanaka Chigodora </title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#050810;color:white;overflow-x:hidden}
+a{text-decoration:none;color:white}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 6%;position:fixed;width:100%;z-index:10;background:rgba(5,8,16,.85);backdrop-filter:blur(10px)}
+.logo{font-weight:800;font-size:22px}.logo span{color:#00e5ff}
+nav ul{display:flex;gap:25px;list-style:none;font-size:14px}
+.btn{background:linear-gradient(90deg,#00e5ff,#7c3aed);padding:12px 22px;border-radius:30px;font-weight:600;color:white;border:none;cursor:pointer;display:inline-block}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:space-between;padding:120px 6% 60px;gap:30px;background:radial-gradient(circle at 80% 20%,#1e1b4b,transparent),radial-gradient(circle at 10% 80%,#082f49,transparent)}
+.hero h1{font-size:clamp(38px,7vw,72px);line-height:1.05;font-family:'Space Grotesk',sans-serif}
+.hero h1 span{background:linear-gradient(90deg,#00e5ff,#a855f7,#f97316);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero p{margin:20px 0;color:#cbd5e1;max-width:520px;font-size:16px;line-height:1.6}
+.hero-img{flex:1;max-width:480px}
+.hero-img img{width:100%;border-radius:30px;border:3px solid #00e5ff;box-shadow:0 0 40px #00e5ff55}
+.badges{display:flex;gap:10px;flex-wrap:wrap;margin:15px 0}
+.badges span{background:#111827;padding:8px 14px;border-radius:20px;font-size:13px;border:1px solid #334155}
+section{padding:70px 6%}
+h2{font-size:32px;margin-bottom:10px}.sub{color:#94a3b8;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.card{background:#0f172a;padding:25px;border-radius:20px;border:1px solid #1e293b}
+.card h3{margin:10px 0}.card p{color:#94a3b8;font-size:14px;line-height:1.6}
+.card:hover{transform:translateY(-5px);border-color:#00e5ff;transition:.3s}
+.icon{font-size:35px}
+.project{overflow:hidden}.project img{width:100%;border-radius:15px;height:160px;object-fit:cover}
+.contact-box{background:linear-gradient(135deg,#0ea5e9,#7c3aed,#f97316);padding:35px;border-radius:25px;text-align:center}
+.contact-box h2{font-size:32px}
+.contact-btns{display:flex;gap:15px;justify-content:center;flex-wrap:wrap;margin-top:20px}
+.white-btn{background:white;color:black;padding:14px 24px;border-radius:30px;font-weight:700}
+.green-btn{background:#25D366;color:white;padding:14px 24px;border-radius:30px;font-weight:700}
+footer{text-align:center;padding:20px;color:#64748b;font-size:13px}
+@media(max-width:800px){.hero{flex-direction:column;text-align:center}.hero-img{max-width:100%}nav ul{display:none}}
+</style>
+</head>
+<body>
+
+<nav>
+<div class="logo">TANAKA <span>&lt;/&gt;</span></div>
+<ul><li><a href="#skills">Skills</a></li><li><a href="#work">Work</a></li><li><a href="#about">About</a></li></ul>
+<a class="btn" href="https://wa.me/263781728008">Hire Me</a>
+</nav>
+
+<div class="hero">
+<div>
+<div class="badges"><span>🔥 Available For Work</span><span>📍 Zimbabwe</span></div>
+<h1>I Build Websites<br>That Make<br><span>Brands Grow.</span></h1>
+<p>Hi, I'm <b>Tanaka Chigodora</b>. FrontEnd Web Developer. I teach HTML, CSS, JavaScript & React and I build fast, beautiful, modern websites for businesses, schools, shops & creators.</p>
+<div style="display:flex;gap:12px;flex-wrap:wrap">
+<a class="btn" href="https://wa.me/263781728008">💬 WhatsApp Me</a>
+<a class="btn" style="background:#111827;border:1px solid #334155" href="#work">View My Work ↓</a>
+</div>
+<div class="badges"><span>⭐ 50+ Projects</span><span>⚡ Fast Loading</span><span>📱 Mobile Friendly</span></div>
+</div>
+<div class="hero-img">
+<img src="myself.jpg" alt="Tanaka">
+<p style="text-align:center;margin-top:10px;font-size:13px;color:#94a3b8">FrontEnd Web Development &lt;/&gt;</p>
+</div>
+</div>
+
+<section id="skills">
+<h2>What I Do 💻</h2>
+<p class="sub">From learning to earning - I build and I teach.</p>
+<div class="grid">
+<div class="card"><div class="icon">🌐</div><h3>HTML + CSS</h3><p>Clean, beautiful layouts that look perfect on phone and laptop.</p></div>
+<div class="card"><div class="icon">⚡</div><h3>JavaScript</h3><p>Interactive websites - menus, sliders, carts, forms that work.</p></div>
+<div class="card"><div class="icon">⚛️</div><h3>React</h3><p>Modern fast apps like Facebook, Instagram style. Professional level.</p></div>
+<div class="card"><div class="icon">🎓</div><h3>I Teach Coding</h3><p>Beginner to Pro. HTML, CSS, JS, React. Learn and build your own portfolio.</p></div>
+</div>
+</section>
+
+<section id="work">
+<h2>My Work 🚀</h2>
+<p class="sub">Real websites for real businesses.</p>
+<div class="grid">
+<div class="card project"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80"><h3>Business Website</h3><p>For shops & companies. Show products, get customers on WhatsApp.</p><br><a href="https://wa.me/263781728008" style="color:#00e5ff">Order Like This →</a></div>
+<div class="card project"><img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80"><h3>Online Store</h3><p>Sell online. Add to cart, EcoCash / WhatsApp order system.</p><br><a href="https://wa.me/263781728008" style="color:#00e5ff">Order Like This →</a></div>
+<div class="card project"><img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80"><h3>School / Portfolio</h3><p>For students, teachers, artists. Show your work in style.</p><br><a href="https://wa.me/263781728008" style="color:#00e5ff">Order Like This →</a></div>
+</div>
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<p style="color:#cbd5e1;line-height:1.8;max-width:700px">I am passionate about the web. My mission is simple: help Zimbabwean brands go online and help young people learn coding skills that can change their lives. If you can dream it, I can build it.</p>
+</section>
+
+<section>
+<div class="contact-box">
+<h2>Let's Build Something Big! 🔥</h2>
+<p>Need a website? Want to learn coding? Talk to me today.</p>
+<div class="contact-btns">
+<a class="green-btn" href="https://wa.me/263781728008">WhatsApp: +263 78 172 8008</a>
+<a class="white-btn" href="mailto:tanakachigodora263@gmail.com">Email Me</a>
+</div>
+<p style="margin-top:15px;font-size:13px;opacity:.9">tanakachigodora263@gmail.com | Reply within 1 hour</p>
+</div>
+</section>
+
+<footer>© 2026 Tanaka Chigodora | FrontEnd Web Development &lt;/&gt; | Made with ❤️ in Zimbabwe</footer>
+
+</body>
+</html>
